@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="/PlayerManager/resources/css/login.css"
 	type="text/css">
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
 #container {
 	padding: 20px 40px;
 	margin: 0px auto;
@@ -32,6 +33,7 @@ ul {
 
 li {
 	margin: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 #shipping li label {
@@ -98,6 +100,10 @@ a:link, a:visited {
 a:hover, a:active {
 background-color: #332c26;
 	color: rgb(255, 255, 255);
+}
+
+span {
+
 }
 
 

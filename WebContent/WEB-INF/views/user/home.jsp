@@ -6,6 +6,8 @@
 <meta charset="UTF-8">
 <title>홈 화면</title>
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
+    
         body {
             background-color: #F2E5E5;
         }
@@ -18,6 +20,7 @@
         }
         h4 {
         	text-align : center;
+        	font-family: 'Noto Sans KR', sans-serif;
         }
         #input {
             text-align: center;
@@ -89,10 +92,10 @@
 
     <div class="container">
         <div class="box">
-            <p><input type='button' value='플레이어 추가하기'/></p>
+            <p><input type='button' value='플레이어 추가하기' onclick="location.href='/player/add.do'"/></p>
         </div>
         <div class="box">
-            <p><input type='button' value='플레이어 정보 보기'/></p>
+            <p><input type='button' value='플레이어 정보 보기' onclick="location.href='/player/list'"/></p>
         </div>
         <div class="box">
             <p><input type='button' value='플레이어 장비 추가하기'/></p>
